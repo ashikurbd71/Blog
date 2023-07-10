@@ -50,9 +50,40 @@ font-family:'Open Sans', sans-serif ;
 font-size: 20px;
 font-weight: 600;
 border-radius: 5px;
+transition: all 1s;
 
 }
 
+
+.banner-btn button:hover{
+    background-color: #16D887;
+    color: black;
+    cursor: pointer;
+}
+
+
+.myplan-btn button{
+    padding: 12px 25px;
+    border: none;
+    color: #005FAC;
+    font-family:'Open Sans', sans-serif ;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 1s;
+    
+    
+    }
+
+    .myplan-btn button:hover{
+        background-color: #16D887;
+        color: black;
+        cursor: pointer;
+    }
+
+    .myplan-btn{
+        padding-left: 50px;
+    }
 .about-content{
     display: flex;
     justify-content: space-around;
@@ -90,7 +121,7 @@ padding-bottom: 20px;
 }
 
 .about-checkbox ul{
-    list-style-type: square;
+    list-style:none;
    
 }
 
@@ -140,18 +171,28 @@ justify-content: center;
     font-weight: 700;
    
 }
+.myplan-box p{
+    color:  #737272;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+margin-top: 10px;
+font-weight: 500;
+
+}
 
 .plan-foo{
 
  
     margin-bottom: 80px;
     border-radius: 8px;
-    background: url(images/watch.png);
-height: 300px;
+    background: url(images/watch.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%) transparent;
+    background-blend-mode: overlay;
 
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    height: 300px;
     margin-left: 100px;
-    padding: 59px 64px  59px 80px;
+
 }
 
 .plan-foo h2{
@@ -162,6 +203,9 @@ background-repeat: no-repeat;
     font-style: normal;
     font-weight: 700;
     margin-bottom: 30px;
+    padding-left: 50px;
+    padding-top: 59px;
+
 }
 
 .footer-container{
@@ -227,4 +271,11 @@ input{
     color: white;
     border: 1px solid white;
     background-color: black;
+}
+
+span img{
+    width: 10px;
+    height: 10px;  
+    border: 1px solid #16D887;
+
 }
